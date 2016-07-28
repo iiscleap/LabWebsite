@@ -1,0 +1,19 @@
+# Footer navigation links
+
+- title: Home
+  url: /
+
+- title: Activities
+  url: /activities/
+
+- title: Publications
+  url: /publications/
+
+- title: Members
+  url: /members/
+
+- title: Showcase
+  url: /showcase/
+
+- title: Gallery
+  url: /gallery/

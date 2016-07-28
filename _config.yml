@@ -1,0 +1,63 @@
+# Site wide configuration
+
+title: "LEAP Laboratory"
+description: "Learning and Extraction of Acoustic Patterns"
+logo: logo.jpg
+teaser: 
+locale: en_US
+url: ""
+feed:
+  path: atom.xml
+
+# Jekyll configuration
+
+sass:
+  sass_dir: _sass
+  style: compressed
+permalink: /:categories/:title/
+kramdown:
+  toc_levels: 1..2
+highlighter: rouge
+gems:
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+
+
+# Site owner
+owner:
+  name: "Sriram Ganapathy"
+  web: "http://www.clsp.jhu.edu/~sriram/"
+  twitter: 
+  bio: "Assistant Professor, Electrical Engineering, Indian Institute of Science"
+  avatar: "bio-photo.jpg" # 160x160 px image for author byline
+  google:
+    plus: 
+  disqus-shortname:
+
+
+include:
+  - .htaccess
+exclude:
+  - "*.less"
+  - "*.sublime-project"
+  - "*.sublime-workspace"
+  - .asset-cache
+  - .bundle
+  - .jekyll-assets-cache
+  - .sass-cache
+  - CHANGELOG
+  - Capfile
+  - Gemfile
+  - Gruntfile.js
+  - LICENSE
+  - README
+  - Rakefile
+  - config
+  - gulpfile.js
+  - lib
+  - log
+  - node_modules
+  - package.json
+  - spec
+  - tmp
